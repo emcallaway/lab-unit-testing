@@ -109,9 +109,9 @@ public class SampleMethods
 
     for (int i = 0; i < str.length (); i++)
       {
-        if (str.charAt (i) == 'a')
+        if (str.charAt (i) != 'a')
           {
-            no_as += str.charAt (i++);
+            no_as += str.charAt (i);
           } // if we see the a
       } // for each position
 
